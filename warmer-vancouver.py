@@ -88,4 +88,4 @@ statusupdate = "It's " + amount + " warmer in Vancouver right now (" + str(vanco
 
 print statusupdate
 
-api.update_status(statusupdate) # tweets out tweet text
+api.update_status(status=statusupdate) # tweets out tweet text
